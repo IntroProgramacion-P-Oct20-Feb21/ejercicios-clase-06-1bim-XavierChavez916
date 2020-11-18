@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manejowhile;
+package ejemplociclowhile;
 
 /**
  *
@@ -23,7 +23,7 @@ public class Ejemplo04 {
         while (contador >= limite_inferior && contador <= limite_superior){
             suma = suma + contador;
             System.out.printf("Contador %d\n", contador);
-            contador = contador + 1;
+            contador = contador + 2;
         }
         
         System.out.printf("La suma final es %d\n", suma);

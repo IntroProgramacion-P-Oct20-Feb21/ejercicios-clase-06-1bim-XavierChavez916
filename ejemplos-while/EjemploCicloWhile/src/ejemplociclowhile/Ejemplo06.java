@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package manejowhile;
+package ejemplociclowhile;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -40,7 +40,6 @@ public class Ejemplo06 {
                 bandera = false;
             }
         }
-        
         System.out.printf("Suma de calificaciones es %.2f\n", suma_total);
         
     }

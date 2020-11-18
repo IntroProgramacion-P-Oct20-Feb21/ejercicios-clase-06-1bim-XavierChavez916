@@ -14,7 +14,7 @@ public class DemoCadenas03 {
         String pais = "Ecuador";
         String ciudad = "Loja";
         String fechaIndependencia = "18 de noviembre";
-        String cadenaAcumuladora = "";
+        String cadenaAcumuladora = "Datos personales\n";
         
         cadenaAcumuladora = String.format("%s%s\n", cadenaAcumuladora, pais);
         

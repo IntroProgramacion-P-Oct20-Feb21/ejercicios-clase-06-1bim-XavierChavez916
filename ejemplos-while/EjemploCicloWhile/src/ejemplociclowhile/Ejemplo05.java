@@ -22,7 +22,7 @@ public class Ejemplo05 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         
-        int limite = 3;
+        int limite = 5;
         int contador = 1;
         double suma_total = 0;
         
@@ -41,7 +41,7 @@ public class Ejemplo05 {
         }
         
         promedio_final = suma_total/limite;
-        System.out.printf("La suma final es %f\n", promedio_final);
+        System.out.printf("El promedio final es %f\n", promedio_final);
         
     }
 }

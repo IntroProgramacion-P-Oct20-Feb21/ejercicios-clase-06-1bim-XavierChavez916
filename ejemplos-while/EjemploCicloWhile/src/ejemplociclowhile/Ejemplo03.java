@@ -16,13 +16,14 @@ public class Ejemplo03 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int limite = 10;
-        int contador = 1;
+        int limite = 50;
+        int contador = 10;
         int suma = 0;
         while (contador <= limite){
             suma = suma + contador;
             System.out.printf("Contador %d\n", contador);
             contador = contador + 1;
+            
         }
         
         System.out.printf("La suma final es %d\n", suma);
